@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ысыах Эркээни 2026</title>
+<style>
+:root{
+--green:#55974D;
+--orange:#D67E2A;
+--bg:#f7f7f3;
+}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Montserrat,Arial,sans-serif;
+background:var(--bg);
+color:#222;
+}
+.hero{
+position:relative;
+height:70vh;
+min-height:500px;
+background:url('images/hero.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+.hero:before{
+content:"";
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.45);
+}
+.hero-content{
+position:relative;
+z-index:2;
+color:white;
+padding:20px;
+}
+.logo{
+width:120px;
+max-width:30vw;
+margin-bottom:20px;
+}
+h1{
+font-size:clamp(40px,8vw,72px);
+margin:0;
+}
+.subtitle{
+font-size:clamp(18px,3vw,24px);
+margin-top:10px;
+}
+.buttons{
+margin-top:25px;
+display:flex;
+gap:12px;
+justify-content:center;
+flex-wrap:wrap;
+}
+.btn{
+background:var(--orange);
+color:white;
+text-decoration:none;
+padding:14px 22px;
+border-radius:999px;
+font-weight:bold;
+}
+.section{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+h2{
+color:var(--green);
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+.card{
+background:white;
+padding:18px;
+border-radius:16px;
+box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+.time{color:var(--orange);font-weight:bold;}
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:10px;
+}
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
+.route{
+text-align:center;
+padding:40px 20px;
+}
+footer{
+background:#fff;
+padding:30px;
+text-align:center;
+margin-top:30px;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="hero-content">
+<img src="images/logo.png" class="logo" alt="Логотип">
+<h1>ЫСЫАХ ЭРКЭЭНИ</h1>
+<div class="subtitle">21 июня 2026 • ТЭК «Орто Дойду»</div>
+<div class="buttons">
+<a class="btn" href="#program">Программа</a>
+<a class="btn" href="#places">Площадки</a>
+<a class="btn" href="#route">Маршрут</a>
+</div>
+</div>
+</section>
+
+<section class="section" id="program">
+<h2>Главные события</h2>
+<div class="grid">
+<div class="card"><div class="time">03:00–04:30</div>Встреча солнца</div>
+<div class="card"><div class="time">09:00–11:00</div>Встреча гостей</div>
+<div class="card"><div class="time">11:00–13:00</div>Открытие Ысыаха</div>
+<div class="card"><div class="time">14:00–20:00</div>Национальные виды спорта</div>
+<div class="card"><div class="time">14:00–17:00</div>Детская программа</div>
+<div class="card"><div class="time">20:00–23:00</div>Гала-концерт и «Этносфера»</div>
+</div>
+
+<h2 style="margin-top:40px">Полная программа 21 июня</h2>
+<div class="card"><b>09:00–11:00</b> Церемония встречи гостей — Той Аана №1</div><br>
+<div class="card"><b>10:00–20:00</b> Торговые ряды</div><br>
+<div class="card"><b>10:00–18:00</b> Выставка мастеров «Хаҥалас уран оһуора» — Киэргэ №6</div><br>
+<div class="card"><b>11:00–13:00</b> Открытие праздника, Алгыс, торжественная часть — Центральное түһүлгэ №5</div><br>
+<div class="card"><b>14:00–20:00</b> Спортивные соревнования, мас-рестлинг, хапсагай, стрельба из лука</div><br>
+<div class="card"><b>14:00–18:00</b> Конкурс запевал осуохая</div><br>
+<div class="card"><b>14:00–15:30</b> Конкурс игры на хомусе</div><br>
+<div class="card"><b>15:00–17:00</b> Конкурс народного пения</div><br>
+<div class="card"><b>15:30–17:00</b> Конкурс национальной одежды</div><br>
+<div class="card"><b>17:00–19:00</b> Концерт авторов-мелодистов</div><br>
+<div class="card"><b>20:00–23:00</b> Гала-концерт и этно-программа</div>
+</section>
+
+<section class="section" id="places">
+<h2>Основные площадки</h2>
+<div class="grid">
+<div class="card">№1 Той Аана</div>
+<div class="card">№2 Встреча солнца</div>
+<div class="card">№5 Центральное түһүлгэ</div>
+<div class="card">№6 Киэргэ</div>
+<div class="card">№9 Тойук тоҕойо</div>
+<div class="card">№10 Үс Ураһа</div>
+<div class="card">№14 Детская площадка</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Фотогалерея</h2>
+<div class="gallery">
+<img src="images/archer.jpg">
+<img src="images/choron.jpg">
+<img src="images/drums.jpg">
+<img src="images/osuokhai.jpg">
+<img src="images/craft.jpg">
+<img src="images/hero.jpg">
+</div>
+</section>
+
+<section id="route" class="route">
+<h2>Как добраться</h2>
+<p>ТЭК «Орто Дойду»</p>
+<a class="btn" href="https://maps.google.com/?q=61.685542,129.365092" target="_blank">Построить маршрут</a>
+</section>
+
+<footer>
+Ысыах Эркээни 2026
+</footer>
+
+</body>
+</html>
