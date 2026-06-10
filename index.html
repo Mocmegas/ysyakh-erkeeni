@@ -86,6 +86,30 @@ padding:18px;
 border-radius:16px;
 box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
+.place-btn{
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:#55974D;
+color:white;
+text-decoration:none;
+padding:16px;
+border-radius:14px;
+font-weight:700;
+transition:.2s;
+box-shadow:0 3px 10px rgba(0,0,0,.12);
+}
+
+.place-btn:hover{
+background:#467d40;
+transform:translateY(-2px);
+}
+
+.place-btn:active{
+transform:translateY(0);
+}
+
 .time{color:var(--orange);font-weight:bold;}
 .gallery{
 display:grid;
@@ -160,6 +184,9 @@ margin-top:30px;
 <section class="section" id="places">
 
 <h2>🗺 Карта площадок</h2>
+<p style="font-size:18px;font-weight:600;">
+Нажмите на площадку, чтобы увидеть мероприятия
+</p>
 
 <img src="images/map.jpg"
      alt="Карта площадок"
@@ -167,13 +194,13 @@ margin-top:30px;
 
 <div style="margin-top:20px" class="grid">
 
-<a href="#p1" class="card">№1 Той Аана</a>
-<a href="#p2" class="card">№2 Встреча солнца</a>
-<a href="#p5" class="card">№5 Центральное түһүлгэ</a>
-<a href="#p6" class="card">№6 Киэргэ</a>
-<a href="#p9" class="card">№9 Тойук тоҕойо</a>
-<a href="#p10" class="card">№10 Үс Ураһа</a>
-<a href="#p14" class="card">№14 Детская площадка</a>
+<a href="#p1" class="place-btn">📍 №1 Той Аана</a> <a href="#p2" class="place-btn">🌅 №2 Встреча солнца</a>
+   <a href="#p5" class="place-btn">🔥 №5 Центральное түһүлгэ</a>
+   <a href="#p6" class="place-btn">🎭 №6 Киэргэ</a>
+   <a href="#p9" class="place-btn">🎤 №9 Тойук тоҕойо</a>
+   <a href="#p10" class="place-btn">📚 №10 Үс Ураһа</a>
+   <a href="#p14" class="place-btn">🎈 №14 Детская площадка</a>
+
 
 </div>
 
